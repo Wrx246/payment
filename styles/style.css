@@ -871,3 +871,165 @@ main {
     top: 206px;
     left: 662px;
 }
+
+/* FEES SECTION */
+
+.fees {
+    margin-top: 200px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.fees-pic {
+    position: relative;
+    width: 510px;
+    max-height: 720px;
+    margin-top: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic__second {
+    position: absolute;
+    top: 10px;
+    left: -50px;
+}
+
+.fees-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    max-width: 620px;
+}
+
+.fees-info__header {
+    max-width: 480px;
+}
+
+.fees-info__header h4 {
+    font-weight: 400;
+    font-size: 22.65px;
+    line-height: 30px;
+    color: #ADA785;
+}
+
+.fees-info__header h2 {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 59.3px;
+    line-height: 78px;
+    letter-spacing: -0.04em;
+    color: white;
+}
+
+.fees-info__header h2>span {
+    color: #ADA785;
+}
+
+.fees-info__header p {
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #E5E5E5;
+}
+
+.fees-info__middle {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.info-section {
+    max-width: 290px;
+}
+
+.info-section p {
+    margin-top: 40px;
+    font-weight: 300;
+    font-size: 16px;
+    color: #E5E5E5;
+}
+
+.section-title {
+    position: relative;
+    max-width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-title span {
+    font-size: 16px;
+    color: #E5E5E5;
+}
+
+.section-title hr {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border: none;
+    background: linear-gradient(to right, rgba(38, 38, 38, 1), rgba(173, 167, 133, 1), rgba(38, 38, 38, 1));
+    height: 1px;
+}
+
+.section-title h2 {
+    font-weight: 300;
+    font-size: 59.3px;
+    line-height: 78px;
+    letter-spacing: -0.04em;
+    color: wheat;
+}
+
+.fees-info__bottom {
+    margin-top: 60px;
+}
+
+.info-bottom {
+    max-width: 620px;
+}
+
+.info-bottom p {
+    margin-top: 40px;
+    font-weight: 300;
+    font-size: 16px;
+    color: #E5E5E5;
+}
+
+.bottom-title {
+    position: relative;
+    max-width: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bottom-title span {
+    margin-left: 40px;
+    font-size: 16px;
+    color: #E5E5E5;
+}
+
+.bottom-title hr {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border: none;
+    background: linear-gradient(to right, rgba(38, 38, 38, 1), rgba(173, 167, 133, 1), rgba(38, 38, 38, 1));
+    height: 1px;
+}
+
+.bottom-title h2 {
+    font-weight: 300;
+    font-size: 59.3px;
+    line-height: 78px;
+    letter-spacing: -0.04em;
+    color: wheat;
+}
