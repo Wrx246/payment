@@ -654,3 +654,220 @@ main {
     font-size: 16px;
     color: #FFFFFF;
 }
+
+/* FEATURES SECTION */
+
+.features {
+    margin-top: 105px;
+    position: relative;
+}
+
+.features-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features-header h4 {
+    font-weight: 400;
+    font-size: 22.65px;
+    line-height: 30px;
+    color: #ADA785;
+}
+
+.features-header h2 {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 59.3px;
+    line-height: 78px;
+    letter-spacing: -0.04em;
+    color: white;
+}
+
+.features-header h2>span {
+    color: #ADA785;
+}
+
+.features-header p {
+    margin-top: 40px;
+    max-width: 480px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #E5E5E5;
+}
+
+.features-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 140px;
+}
+
+
+.features-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+}
+
+.features-block__first {
+    position: relative;
+    overflow: hidden;
+    width: 840px;
+    height: 400px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(200.74deg, rgba(214, 211, 194, 0.2) 0%, rgba(92, 92, 92, 0.14) 100%);
+    box-shadow: inset -2.62px -1.618px 4.23916px rgba(250, 250, 250, 0.22);
+    border-radius: 60px;
+}
+
+.features-block__first h2 {
+    margin-left: 40px;
+    margin-top: 60px;
+    font-weight: 300;
+    font-size: 59.3px;
+    line-height: 78px;
+    letter-spacing: -0.04em;
+    color: #E5E5E5;
+}
+
+.features-block__first p {
+    max-width: 280px;
+    margin-top: 37px;
+    margin-left: 40px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 180%;
+    color: #E5E5E5;
+}
+
+.block-first_circle {
+    position: absolute;
+    top: 320px;
+    left: 544px;
+    width: 256px;
+    height: 256px;
+    border-radius: 50%;
+    background: #FFD700;
+    filter: blur(125px);
+}
+
+.block-first_noise {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    mix-blend-mode: overlay;
+    opacity: 0.4;
+}
+
+.block-card__first {
+    position: absolute;
+    right: 0;
+    top: 123px;
+}
+
+.block-card__second {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.block-card__third {
+    position: absolute;
+    left: 307px;
+    bottom: 0;
+}
+
+.features-block__second {
+    position: relative;
+    overflow: hidden;
+    padding: 60px 40px;
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(200.74deg, rgba(214, 211, 194, 0.2) 0%, rgba(92, 92, 92, 0.14) 100%);
+    box-shadow: inset -2.62px -1.618px 4.23916px rgba(250, 250, 250, 0.22);
+    border-radius: 60px;
+}
+
+.features-block__second p {
+    margin-top: 27px;
+    font-weight: 300;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.block-second__title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block-second__title h4 {
+    font-weight: 400;
+    font-size: 22.65px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.block-second_circle {
+    z-index: -1;
+    position: absolute;
+    width: 256px;
+    height: 256px;
+    top: 400px;
+    left: 72px;
+    background: #FFD700;
+    filter: blur(125px);
+}
+
+.features-block__third {
+    position: relative;
+    overflow: hidden;
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), linear-gradient(200.74deg, rgba(214, 211, 194, 0.2) 0%, rgba(92, 92, 92, 0.14) 100%);
+    box-shadow: inset -2.62px -1.618px 4.23916px rgba(250, 250, 250, 0.22);
+    border-radius: 60px;
+}
+
+.features-block__third img {
+    position: absolute;
+    top: 60px;
+    left: 40px;
+}
+
+.features-block__third h2 {
+    position: absolute;
+    top: 204px;
+    left: 40px;
+    font-weight: 300;
+    font-size: 59.3px;
+    line-height: 78px;
+    letter-spacing: -0.04em;
+    color: #E5E5E5;
+}
+
+.block-third_circle {
+    z-index: -1;
+    position: absolute;
+    width: 256px;
+    height: 256px;
+    top: 400px;
+    left: 72px;
+    background: #FFD700;
+    filter: blur(125px);
+}
+
+.block-card_back {
+    position: absolute;
+    top: 60px;
+    left: 300px;
+}
+
+.block-card__front {
+    position: absolute;
+    top: 206px;
+    left: 662px;
+}
