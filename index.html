@@ -1,42 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles/normalize.css"/>
+    <link rel="stylesheet" href="styles/normalize.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300&display=swap"
-          rel="stylesheet">
-    <link rel="stylesheet" href="styles/style.css"/>
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css" />
     <title>Payment Card</title>
 </head>
+
 <body>
-<header>
-    <img class="main-logo" src="assets/logo.svg" alt="logo"/>
-    <div class="burger">
-        <div class="top-btn"></div>
-        <div class="mid-btn"></div>
-        <div class="bot-btn"></div>
-    </div>
-    <nav>
-        <a class="nav-link" href="#">features</a>
-        <div class="nav-block">
-            <ul class="nav-first">
-                <li><a class="nav-link" href="#">blog</a></li>
-                <li><a class="nav-link" href="#">company</a></li>
-                <li><a class="nav-link" href="#">more</a></li>
-            </ul>
-            <ul class="nav-second">
-                <li><a class="nav-link" href="#">contact</a></li>
-                <li>
-                    <button class="monopay-button">
-                        <img src="assets/mini_logo.svg" alt="mini logo"/>
-                        get monopay
-                    </button>
-                </li>
-            </ul>
+    <header>
+        <img class="main-logo" src="assets/logo.svg" alt="logo" />
+        <div class="burger">
+            <div class="top-btn"></div>
+            <div class="mid-btn"></div>
+            <div class="bot-btn"></div>
         </div>
-    </nav>
-</header>
+        <nav>
+            <a class="nav-link" href="#">features</a>
+            <div class="nav-block">
+                <ul class="nav-first">
+                    <li><a class="nav-link" href="#">blog</a></li>
+                    <li><a class="nav-link" href="#">company</a></li>
+                    <li><a class="nav-link" href="#">more</a></li>
+                </ul>
+                <ul class="nav-second">
+                    <li><a class="nav-link" href="#">contact</a></li>
+                    <li>
+                        <button type="button" class="monopay-button">
+                            <img src="assets/mini_logo.svg" alt="mini logo" />
+                            get monopay
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="main">
+            <article class="main-article">
+                <h1><span>One</span> Payment</br>Card for all</h1>
+                <div class="main-article__text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio.</p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio.
+                        Nulla at congue diam, at dignissim turpis.
+                    </p>
+                </div>
+                <button type="button" class="monopay-button big-button">
+                    <img src="assets/mini_logo.svg" alt="mini logo" />
+                    get monopay
+                </button>
+            </article>
+            <div class="main-info">
+                <div class="info__block">
+                    <h2>5.9M+</h2>
+                    <span>Daily<br />Transaction</span>
+                    <hr />
+                </div>
+                <div class="info__block">
+                    <h2>8.9M+</h2>
+                    <span>App<br />Downloads</span>
+                    <hr />
+                </div>
+                <div class="info__block">
+                    <h2>+2%</h2>
+                    <span>Unlimited<br />Daily Cashback</span>
+                    <hr />
+                </div>
+                <div class="info__block">
+                    <div class="block__cards">
+                        <div class="master">
+                            <div class="master-left"></div>
+                            <div class="master-right"></div>
+                        </div>
+                        <img src="./assets/visa.svg" alt="visa" />
+                    </div>
+                    <span>We partner with top-tier companies.</span>
+                    <hr />
+                </div>
+            </div>
+            <div class="main-background">
+                <div class="background-card">
+                    <div class="background-card__back">
+                        <img class="background-card__wifi" src="./assets/wifi.svg" alt="wifi" />
+                        <h3>Tom Riddle</h3>
+                        <img class="background-card__chip" src="./assets/chip.svg" alt="chip" />
+                    </div>
+                </div>
+                <div class="bacground-light"></div>
+                <div class="background-phone">
+                    <div class="background-phone__head">
+                        <h6>BALANCE</h6>
+                        <h4>$591,618<span>.00</span></h4>
+                        <div class="done-block">
+                            <img src="./assets/Shield Done.svg" alt="done" />
+                            <span>Secure Payment</span>
+                        </div>
+                    </div>
+                    <div class="background-phone__info">
+                        <div class="phone-info__block">
+                            <span>CVV</span>
+                            <p>591</p>
+                        </div>
+                        <div class="phone-info__block">
+                            <span>EXP.</span>
+                            <p>NOV 18, 2025</p>
+                        </div>
+                        <div class="phone-info__block">
+                            <span>NUMBER</span>
+                            <p>1618 2062 4024<br />6086</p>
+                        </div>
+                    </div>
+                    <div class="background-phone__card">
+                        <div class="phone-card__back">
+                            <img src="./assets/big_logo.svg" alt="big logo" />
+                            <div class="card-circle">
+                                <div class="card-circle_left"></div>
+                                <div class="card-circle_right"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="background-phone__user">
+                        <div class="user-name">
+                            <h6>Tim Riddle</h6>
+                            <span>Monocard Black - Mastercard</span>
+                        </div>
+                        <div class="user-avatar"></div>
+                    </div>
+                    <div class="background-phone__menu">
+                        <img src="./assets/Home.svg" alt="home">
+                        <img src="./assets/Notification.svg" alt="notification">
+                        <div class="menu-button">Wallet</div>
+                        <img src="./assets/Activity.svg" alt="activity">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
+
 </html>
