@@ -1033,3 +1033,88 @@ main {
     letter-spacing: -0.04em;
     color: wheat;
 }
+
+/* SECURITY SECTION */
+
+.security {
+    margin-top: 203px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.security-title {
+    position: relative;
+    max-width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.security-title span {
+    font-size: 16px;
+    color: #E5E5E5;
+}
+
+.security-title img {
+    margin-bottom: 20px;
+}
+
+.security-title hr {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border: none;
+    background: linear-gradient(to right, rgba(38, 38, 38, 1), rgba(173, 167, 133, 1), rgba(38, 38, 38, 1));
+    height: 1px;
+}
+
+.bottom-title__security {
+    position: relative;
+    max-width: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bottom-title__security hr {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border: none;
+    background: linear-gradient(to right, rgba(38, 38, 38, 1), rgba(173, 167, 133, 1), rgba(38, 38, 38, 1));
+    height: 1px;
+}
+
+.bottom-title__security h2 {
+    font-weight: 300;
+    font-size: 59.3px;
+    line-height: 78px;
+    letter-spacing: -0.04em;
+    color: wheat;
+}
+
+.bottom-title__security img {
+    margin-bottom: 20px;
+}
+
+.bottom-title__security span {
+    margin-left: 40px;
+    font-size: 16px;
+    color: #E5E5E5;
+}
+
+.security-pic {
+    position: relative;
+}
+
+.security-pic__second {
+    position: absolute;
+    top: 222px;
+    left: 110px;
+    z-index: -1;
+}
