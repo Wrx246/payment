@@ -1118,3 +1118,52 @@ main {
     left: 110px;
     z-index: -1;
 }
+
+/* WORK SECTION */
+
+.work {
+    margin-top: 200px;
+    position: relative;
+}
+
+.work-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-header h4 {
+    font-weight: 400;
+    font-size: 22.65px;
+    line-height: 30px;
+    color: #ADA785;
+}
+
+.work-header h2 {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 59.3px;
+    line-height: 78px;
+    letter-spacing: -0.04em;
+    color: white;
+}
+
+.work-header h2>span {
+    color: #ADA785;
+}
+
+.work-header p {
+    margin-top: 40px;
+    max-width: 480px;
+    font-weight: 300;
+    color: #E5E5E5;
+    text-align: center;
+}
+
+.work-posts {
+    margin-top: 124px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
